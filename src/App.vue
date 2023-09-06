@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView, useRouter } from 'vue-router'
 import NavBar from "./components/NavBar.vue"
+import Footer from './components/Footer.vue';
 
 const router = useRouter()
 
@@ -16,20 +17,31 @@ const router = useRouter()
 
   <RouterView />
   </div>
+  <Footer/>
 </template>
 
 <style>
 
 #app {
   font-family: 'Montserrat';
+
 }
 
-.wrapper {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 91vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    min-height: 93vh;
+  }
 }
 
 

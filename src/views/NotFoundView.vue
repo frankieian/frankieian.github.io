@@ -6,4 +6,12 @@
   
 <style>
 
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 </style>

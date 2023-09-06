@@ -6,4 +6,11 @@
   
 <style>
 
+.unknown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 </style>

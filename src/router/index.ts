@@ -11,14 +11,8 @@ export const routes = [
     icon: 'pi pi-home'
   },
   {
-    path: '/test',
-    name: 'test',
-    component: InProgressViewVue,
-    icon: 'pi pi-home'
-  },
-  {
-    path: '/other',
-    name: 'other',
+    path: '/projects',
+    name: 'projects',
     component: InProgressViewVue,
     icon: 'pi pi-home'
   },
@@ -29,7 +23,7 @@ export const routes = [
     icon: 'pi pi-home'
   },
   {
-    path:'/:pathMatch(.*)*', name: 'not-found', component: NotFound 
+    path:'/:pathMatch(.*)*', component: NotFound 
   }
 
 ]
