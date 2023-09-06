@@ -1,6 +1,6 @@
-# vue-project
+# Frankie's Website
 
-This template should help get you started developing with Vue 3 in Vite.
+This project uses Vue 3 to create a simple website
 
 ## Recommended IDE Setup
 

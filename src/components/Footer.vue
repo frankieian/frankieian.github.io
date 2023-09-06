@@ -15,10 +15,10 @@
     <!-- Navbar !-->
     <div class="footer">
         <a href="https://github.com/frankieian" rel="noreferrer" target="_blank" class="icon">
-            <image height="50" class="pi pi-github" style="font-size: 2.5rem;"/>
+            <i height="50" class="pi pi-github"/>
         </a>
         <a href="https://www.linkedin.com/in/frankie-ian-752914146/" rel="noreferrer" target="_blank" class="icon">
-            <image height="50" class="pi pi-linkedin" style="font-size: 2.5rem;"/>
+            <i height="50" class="pi pi-linkedin"/>
         </a>
     </div>
      <!-- Navbar -->
@@ -35,6 +35,11 @@
 }
 .footer .icon {
     margin-right: 1rem;
+}
+
+.footer .icon i {
+    font-size: 2.5rem;
+    color: #7a7a79;
 }
 
 </style>
