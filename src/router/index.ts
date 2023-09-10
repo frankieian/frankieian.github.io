@@ -14,13 +14,13 @@ export const routes = [
     path: '/projects',
     name: 'projects',
     component: InProgressViewVue,
-    icon: 'pi pi-home'
+    icon: 'pi pi-truck'
   },
   {
     path: '/contact',
     name: 'contact',
     component: InProgressViewVue,
-    icon: 'pi pi-home'
+    icon: 'pi pi-user'
   },
   {
     path:'/:pathMatch(.*)*', component: NotFound 
